@@ -25,6 +25,9 @@ Ayuda - git config
 configurar nombre - git config --global user.name <nombre><br>
 configurar email - git config --global user.email <email><br>
 
+podemos poner un alias a un comando que usemos mucho para facilitarnos el trabajo
+git config --global alias.<nombre> "log --graph --decorate --all --oneline"
+
 # Inicialización de un repositorio
 
 ## Por qué se debe iniciar?
@@ -48,9 +51,9 @@ git config --global init.defaultBranch <nombre>
 
 # Guardar estado actual
 para ver el estado actual<br>
-git status
+git status - Nos saldrá en rojo los cambios que no hayamos añadido, y en verde los que sí
 
-```diff
+```
 $ git status
 On branch main
 
@@ -58,10 +61,39 @@ No commits yet
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-        - hello_git.txt</span>
-        - hellogit.py
+        hello_git.txt (en ROJO)
+        hellogit.py (en ROJO)
 
 nothing added to commit but untracked files present (use "git add" to track)
+```
+
+Para añadir un fichero a git
+git add <nombre_fichero>
+
+Si se vuelve a hacer git status los ficheros que hayamos añadido ahora nos saldrán en verde
+
+para añadir todos los ficheros
+git add .
+
+actualizar repositorio (Obligatorio poner un comentario)
+git commit -m "mensaje"
+
+# Ver historial de commits
+git log
+git log --graph
+git log --graph --pretty=oneline
+git log --graph --decorate --all -oneline
+
+
+# El comando checkout nos permite situarnos en un punto concreto del historial de commits o de un archivo
+git checkout <nombre_fichero>
+
+# si queremos volver al último commit completo creado
+git reset
+
+
+
+
 
 
 
