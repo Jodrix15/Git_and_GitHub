@@ -1,5 +1,5 @@
 # ver versión
-git --version
+git --version <br>
 git -v
 
 # ayuda
