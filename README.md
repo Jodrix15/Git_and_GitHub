@@ -57,8 +57,8 @@ No commits yet
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-        hello_git.txt
-        hellogit.py
+        - hello_git.txt
+        - hellogit.py
 
 nothing added to commit but untracked files present (use "git add" to track)```
 
