@@ -57,11 +57,11 @@ On branch main
 No commits yet
 
 Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-        $${\color{red}hello_git.txt}$$	
-        $${\color{red}hellogit.py}$$
+  (use "git add <file>..." to include in what will be committed)```
+        <span style="color:red;">hello_git.txt
+        <span style="color:red;">hellogit.py
 
-nothing added to commit but untracked files present (use "git add" to track)```
+```nothing added to commit but untracked files present (use "git add" to track)```
 
 
 
