@@ -50,7 +50,7 @@ git config --global init.defaultBranch <nombre>
 para ver el estado actual<br>
 git status
 
-``` diff
+```
 $ git status
 On branch main
 
@@ -58,8 +58,8 @@ No commits yet
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-        - hello_git.txt
-        - hellogit.py
+        $${\color{red}hello_git.txt}$$	
+        $${\color{red}hellogit.py}$$
 
 nothing added to commit but untracked files present (use "git add" to track)```
 
