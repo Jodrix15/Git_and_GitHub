@@ -50,7 +50,8 @@ git config --global init.defaultBranch <nombre>
 para ver el estado actual<br>
 git status
 
-```$ git status
+``` diff
+$ git status
 On branch main
 
 No commits yet
