@@ -1,8 +1,8 @@
-#ver versión
+# ver versión
 git --version
 git -v
 
-#ayuda
+# ayuda
 git -h
 
 
